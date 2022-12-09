@@ -29,6 +29,7 @@ nav > span {
   font-family: 'Source Sans Pro', sans-serif;
   flex-direction: column;
 }
+
 .fa-angles-down {
   color: red;
 }

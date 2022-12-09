@@ -1,0 +1,74 @@
+.old-tweet {
+  margin-left:25%;
+  margin-right:25%;
+  padding-bottom: 25%;
+  margin-top:10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #f4f1ec;
+  flex-direction:column;
+}
+
+.tweets{
+  display: flex;
+  flex-direction: column;
+  border:solid;
+  display: flex;
+}
+
+
+/* Header of the old tweet */
+.otHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.name {
+  padding-left: 10px;
+  font-weight:lighter;
+}
+
+.id {
+  padding-right: 10px;
+  font-weight:bold;
+  color: lightgray;
+}
+
+/* Body of the old tweet */
+
+.otBody {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: solid;
+  font-weight: bold;
+  font-size:large;
+  padding-bottom: 10px;
+}
+
+.otContent {
+  margin-left: 10px;
+}
+
+/* Footer of the old tweet */
+
+.otFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size:x-small; 
+}
+
+.icons {
+  margin-right: 15px;
+  /* justify-items: flex-end; */
+}
+
+.botIcon {
+  color: #4056A1;
+  padding: 2px;
+}
