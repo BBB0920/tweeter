@@ -8,7 +8,7 @@
     "content": {
       "text": "If I have seen further it is by standing on the shoulders of giants"
     },
-    "created_at": 1670811523480
+    "created_at": 1670738690777
   },
   {
     "user": {
@@ -19,6 +19,17 @@
     "content": {
       "text": "Je pense , donc je suis"
     },
-    "created_at": 1670897923480
+    "created_at": 1670825090777
+  },
+  {
+    "user": {
+      "name": "Lyon Lee",
+      "avatars": "/images/myPFPinHexagon.png",
+      "handle": "@LLee"
+    },
+    "content": {
+      "text": "When should you buy a bird? When it goes cheep!"
+    },
+    "created_at": 1670911490777
   }
 ]

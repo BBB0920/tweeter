@@ -9,7 +9,7 @@
 $(document).ready(function() {
 
   const createTweetElement = function(info) {
-
+    console.log(info.created_at);
     const escape = function (str) {
       let div = document.createElement("div");  
       div.appendChild(document.createTextNode(str));
@@ -41,32 +41,6 @@ $(document).ready(function() {
       </article>
     `;
   }
-
-  const data = [
-    {
-      "user": {
-        "name": "Newton",
-        "avatars": "https://i.imgur.com/73hZDYK.png"
-        ,
-        "handle": "@SirIsaac"
-      },
-      "content": {
-        "text": "If I have seen further it is by standing on the shoulders of giants"
-      },
-      "created_at": `${timeago.format(1461116232227)}`
-    },
-
-    {
-      "user": {
-        "name": "Descartes",
-        "avatars": "https://i.imgur.com/nlhLi3I.png",
-        "handle": "@rd" },
-      "content": {
-        "text": "Je pense , donc je suis" 
-      },
-      "created_at": `${timeago.format(1461113959088)}`
-    }
-  ]
 
   // Rendering tweets from pre-determined database
   const renderTweets = function(tweets) {

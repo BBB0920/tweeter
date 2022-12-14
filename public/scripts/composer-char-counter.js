@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-  console.log("This is the composer-char-counter.js!");;
-
   $("#tweet-text").on('input', function() {
     let textCounter = 140 - ($(this).val()).length;
 

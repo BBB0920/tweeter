@@ -1,6 +1,6 @@
 .old-tweet {
-  margin-left:25%;
-  margin-right:25%;
+  margin-left:15%;
+  margin-right:15%;
   padding-bottom: 25%;
   margin-top:10px;
   display: flex;
@@ -31,7 +31,7 @@
 
 .name {
   padding-left: 10px;
-  font-weight:lighter;
+  font-weight:bold;
 }
 
 .id {
@@ -46,7 +46,7 @@
   margin-left: 5px;
   margin-right: 5px;
   border-bottom: solid;
-  font-weight: bold;
+  font-weight: normal;
   font-size:large;
   padding-bottom: 10px;
 }
@@ -80,4 +80,9 @@
   color: darkgoldenrod;
 }
 
-
+@media only screen and (min-width: 768px) {  
+  .old-tweet{
+    margin-left:10%;
+    margin-right:10%;
+  }
+}
