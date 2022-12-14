@@ -3,10 +3,10 @@
   margin-right:25%;
   margin-top:10px;
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-content: center;
   background-color: #f4f1ec;
-  flex-direction:column;
 }
 
 #tweet-text {
@@ -17,6 +17,11 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: large;
   font-weight: bold;
+}
+
+#target {
+  display: flex;
+  flex-direction: column;
 }
 
 .button {
@@ -30,4 +35,18 @@
   border: none;
   background-color: #4056A1;
   color: #FFFFFF;
+}
+
+.error {
+  border: solid;
+  border-color: red;
+  padding: 5px;
+  margin-bottom: 25px;
+  font-size: large;
+  font-weight: bold;
+  color: red;
+}
+
+.fa-triangle-exclamation {
+  color: red;
 }

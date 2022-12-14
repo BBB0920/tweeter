@@ -13,10 +13,14 @@
 .tweets{
   display: flex;
   flex-direction: column;
-  border:solid;
+  border: solid;
   display: flex;
+  margin-bottom: 25px;
 }
 
+.tweets:hover {
+  box-shadow:3px 3px lightgray;
+}
 
 /* Header of the old tweet */
 .otHeader {
@@ -72,3 +76,9 @@
   color: #4056A1;
   padding: 2px;
 }
+
+.botIcon:hover {
+  color: darkgoldenrod;
+}
+
+

@@ -24,6 +24,27 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+ 
+ #mainHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 520px;
+  width: 100%;
+  padding-top: 120px;
+  background-color:#ccbb00; 
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+}
+
+#pfpMargin > name {
+  color:white;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
 
 main {
   display: flex;
@@ -35,3 +56,34 @@ main {
   margin-right: 5%;
 }
 
+@media only screen and (min-width: 768px) {  
+  #blankspace {
+    padding: 100px;
+    background: transparent;
+  }
+
+  #mainHeader {
+    margin-left:10%;
+    width: 30%;
+    height: 30%;
+    float: left;
+  }
+
+  #pfp { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+
+  #pfpMargin {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #container {
+    width: 60%;
+    float: right;
+    margin-top: 120px;
+  }
+}
