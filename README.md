@@ -6,9 +6,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots of the Project
 
-!["Desktop view"] (https://github.com/BBB0920/tweeter/blob/master/docs/desktop.png?raw=true)
-!["Mobile view"] (https://github.com/BBB0920/tweeter/blob/master/docs/mobile.png?raw=true)
-!["Error message displayed"] (https://github.com/BBB0920/tweeter/blob/master/docs/error.png?raw=true)
+!["Desktop view"](https://github.com/BBB0920/tweeter/blob/master/docs/desktop.png?raw=true)
+!["Mobile view"](https://github.com/BBB0920/tweeter/blob/master/docs/mobile.png?raw=true)
+!["Error message displayed"](https://github.com/BBB0920/tweeter/blob/master/docs/error.png?raw=true)
 
 ## Dependencies
 
