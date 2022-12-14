@@ -11,7 +11,7 @@ $(document).ready(function() {
   const createTweetElement = function(info) {
 
     const escape = function (str) {
-      let div = document.createElement("div");  // div is created, but in the memory - not in any part of the document
+      let div = document.createElement("div");  
       div.appendChild(document.createTextNode(str));
       return div.innerHTML;
     };
@@ -76,6 +76,7 @@ $(document).ready(function() {
     }
   }
 
+  // Generates error message
   const errMsg = function(Error) {
     let errSntc = [
       'You have not entered any message. Please write something!',
@@ -118,7 +119,6 @@ $(document).ready(function() {
   })
 
   const loadTweets = function() {
-    // console.log('get request received');
     $.ajax('/tweets', {method: 'GET'})
     .then(function (data) {
       renderTweets(data);
