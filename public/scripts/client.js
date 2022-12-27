@@ -73,6 +73,8 @@ $(document).ready(function() {
 
     event.preventDefault();
 
+    $('#counter').text(140);
+    
     if ($("#tweet-text").val().length < 1) {
       errMsg(0);
     } else if ($("#tweet-text").val().length > 140) {
