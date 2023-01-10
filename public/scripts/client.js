@@ -59,11 +59,11 @@ $(document).ready(function() {
 
     $('.error').remove();
     $('#target').prepend(`
-    <div class=error>
-      <i class="fa-solid fa-triangle-exclamation"></i>
-      ${errSntc[Error]}
-      <i class="fa-solid fa-triangle-exclamation"></i>
-    </div>
+      <div class=error>
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        ${errSntc[Error]}
+        <i class="fa-solid fa-triangle-exclamation"></i>
+      </div>
     `);
     $('.error').hide().slideDown("slow");
   }
@@ -72,8 +72,6 @@ $(document).ready(function() {
   $('#target').on('submit', function (event) {
 
     event.preventDefault();
-
-    $('#counter').text(140);
     
     if ($("#tweet-text").val().length < 1) {
       errMsg(0);
@@ -89,6 +87,7 @@ $(document).ready(function() {
       .then(() => {
         $(".tweets").remove();
         $('#tweet-text').val('');
+        $('#counter').text(140);
         loadTweets();
       })
     }
